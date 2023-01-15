@@ -1,0 +1,482 @@
+/* 
+-->> Developer Info <<--
+
+Name: Nayan Das
+Phone: +8801717-456425
+Email: nayandas559@gmail.com
+Linkdin: https://www.linkedin.com/in/nayandas559/
+Facebook: https://web.facebook.com/nayandas0559
+
+*/
+
+/*  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #131313 - Heading color
+    #fff4e8 - Banner BG
+    #ff8f0d - Button BG
+*/
+/* ====================
+Work Sans Font
+=======================*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800&display=swap');
+
+/* ==================
+Global Css Start
+===================== */
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  font-family: 'Work Sans';
+}
+h1, h2, h3, h4{
+  font-family: 'Work Sans';
+  color: #131313;
+}
+h1{
+  font-weight: 700;
+  font-size: 64px;
+}
+h2{
+  font-weight: 700;
+  font-size: 45px;
+}
+h3{
+  font-weight: 600;
+  font-size: 20px;
+}
+h4{
+  font-weight: 400;
+  font-size: 20px;
+  color: #727272;
+}
+p{
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+ul{
+  /* margin: 0; */
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+}
+a{
+  text-decoration: none;
+}
+.default-btn{
+  width: 180px;
+  height: 64px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #FF900E;
+  transition: ease-out;
+  transition-duration: .4s;
+  cursor: pointer;
+}
+.default-btn:hover{
+  color: #fff;
+  background-color: #131313;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.section-title{}
+.title-border{
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+/* ----------------------- 
+Banner Section Style START
+-------------------------- */
+
+.banner-section{
+  /* background-image: url(../images/section_bg04.jpg); */
+  background-color: #fff4e8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 0;
+}
+.site-logo{}
+.site-logo img{
+    width: 245px;
+}
+
+/* Navagation CSS */
+.navigation{}
+.nav{
+    display: flex;
+    grid-column-gap: 43px;
+}
+.nav-item{}
+.nav-item a{
+  transition: ease-out;
+  transition-duration: .4s;
+  color: #424242;
+}
+.nav-item a:hover{
+  color: #ff900e;
+}
+
+/* Banner Content CSS */
+.banner-content{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+.banner-text{
+    text-align: center;
+}
+.bnner-heading{
+    padding-bottom: 30px;
+}
+.banner-info{
+    padding-bottom: 30px;
+}
+.banner-btn{}
+
+/* Banner Image CSS */
+.hero-image{
+    margin-top: 50px;
+    width: 100%;
+}
+.hero-image img{
+  max-width: 100%;
+}
+
+
+
+/* Banner Section Style END */
+
+/* Features Section Style Start  */
+.features-section, .more-features-section, .some-facts-section{
+  margin: 130px 0 0;
+}
+.features-content{
+    display: flex;
+    gap: 73px;
+    margin: 0 70px;
+}
+.features-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.features-images img{}
+
+.quick-features-info{
+    display: grid;
+    align-content: center;
+}
+.features-content h2{}
+.title-fade{
+    color: #727272;
+}
+.title-color{
+    color: #ff900e;
+}
+.features-content p{
+    padding: 24px 0 32px 0;
+}
+.features-content button{}
+.exprience-btn{
+    background: #fb8e0e;
+    text-align: center;
+    padding: 32px;
+    border-radius: 8px;
+    width: 245px;
+    position: relative;
+    top: -108px;
+    left: -73px;
+}
+.exprience-btn h1{
+    color: #fff;
+}
+.exprience-btn p{
+    color: #fff;
+}
+/* Features Section Style  End  */
+
+
+/* More Features Section Style Start */
+.more-features-section{}
+.all-features{
+    display: flex;
+    gap: 164px;
+}
+.more-features-content{}
+.more-features{}
+.more-features h2{}
+.more-features p{
+    padding-top: 24px;
+}
+.features-list{
+    margin-top: 30px;
+}
+.features-info{
+    box-shadow: -2px 3px 19px 0px #d7d7d766;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.features-info h3{}
+.features-info p{
+    padding-top: 10px;
+}
+.more-feature-img{
+    width: 100%;
+}
+.more-feature-img img{
+    max-width: 100%;
+}
+
+/* More Features Section Style End */
+
+
+/* Some Facts Section Style Start  */
+.some-facts-section{}
+.facts-content{
+    width: 33%;
+}
+.facts-content h2{
+    padding-bottom: 24px;
+}
+.facts-content p{}
+
+.all-facts{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+.fact{
+    padding: 35px 30px;
+    text-align: center;
+    border: 2px solid #fb8e0e;
+    border-radius: 5px;
+    width: 200px;
+    height: 152px;
+    background-color: #fff;
+    cursor: context-menu;
+    transition-duration: .5s;
+}
+.fact:hover{
+  background-color: #fb8e0e;
+  transform: scale(1.1);
+}
+.fact img{}
+.fact h3{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;color: #424242;
+  padding: 5px 0;
+}
+.fact h4{}
+/* Some Facts Section Style End  */
+
+
+/* Our Sponspors Section Style Start */
+.sponspors-section{
+    margin-top: 180px;
+}
+.sponspors-content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponspors-content h2{
+    padding-bottom: 24px;
+}
+.sponspors-content p{}
+
+.all-sponspors{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponspor{}
+.sponspor img{}
+/* Our Sponspors Section Style End */
+
+/* Contact Us Section Style Start */
+.contact-us-section{
+    margin-top: 130px;
+    padding: 100px 0;
+    background-image: url(../images/section_bg04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-content{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-info{
+    padding-right: 100px;
+}
+.contact-info h2{
+}
+.contact-info p{
+    padding-top: 24px;
+}
+
+.contact-form{}
+.contact-wrapper{}
+input, textarea{
+    width: 100%;
+    border: 2px solid #ff900e;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 25px 20px;
+}
+textarea{
+  height: 185px;
+}
+.submit-btn{}
+/* Contact Us Section Style End */
+
+/* Footer Section Style */
+.footer{
+    margin: 170px 0 216px 0;
+}
+.footer-content{
+    background-color: #fff4e8;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+.footer-content h4{}
+
+
+/* -----------------------
+Banner Section Media Quary
+-------------------------- */
+
+/* Mobile Device */
+@media screen and (max-width: 577px) {
+  .header{
+    padding: 30px 0 0;
+  }
+  h2 {
+    font-size: 40px;
+}
+  .header, .features-content, .all-features{
+    flex-direction: column;
+  }
+  .site-logo img {
+    width: 150px;
+  }
+  .nav {
+    margin-top: 10px;
+    grid-column-gap: 20px;
+  }
+  .nav-item {
+    font-size: 16px;
+  }
+  .banner-content{
+      width: 100%;
+      margin-top: 80px;
+  }
+  .bnner-heading{
+    font-size: 45px;
+  }
+  .default-btn {
+    width: 175px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .features-section, .more-features-section, .some-facts-section, .sponspors-section {
+    margin: 80px 0 0;
+}
+.features-content{
+  margin: 0;
+  gap: 50px;
+}
+.features-images{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+.features-images img{
+    width: 100%;
+}
+.all-features {
+  gap: 50px;
+}
+.exprience-btn {
+  top: -66px;
+  left: 0;
+  display: block;
+  margin: 0 auto;
+  width: 190px;
+  padding: 26px 30px;
+}
+.exprience-btn h1{
+  font-size: 45px;
+}
+.facts-content {
+  width: 100%;
+  text-align: center;
+}
+
+.all-facts {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.sponspors-content {
+  width: 100%;
+}
+.all-sponspors {
+  margin-top: 50px;
+  gap: 30px;
+  flex-direction: column;
+}
+.contact-us-section {
+  margin-top: 80px;
+  padding: 60px 0;
+}
+.contact-content {
+  gap: 50px;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-info {
+  padding-right: 0;
+}
+input, textarea {
+  width: 88%;
+}
+.footer {
+  margin: 70px 0 70px;
+}
+}
